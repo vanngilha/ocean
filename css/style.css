@@ -1,5 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
-@import url('https://fonts.cdnfonts.com/css/poppins');
+:root {
+    --cor-primaria: #25283B;
+    --cor-secundaria: #d2d2d2;
+    --fonte-titulo: 'Rubrik', Impact, sans-serif;
+    --fonte-texto: 'Poppins', Arial, sans-serif;
+    --gradiente-fundo: linear-gradient(180deg, #1a1f38 0%, #2a3257 100%);
+}
 
 .banner{
     width: 100%;
