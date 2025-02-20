@@ -110,7 +110,7 @@ body {
     width: min(600px, 90%);
     height: min(600px, 60vh);
     aspect-ratio: 1/1.5;
-    background-image: url(../images/mergulhador.png);
+    /* background-image: url(../images/mergulhador.png); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
