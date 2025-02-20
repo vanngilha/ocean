@@ -135,3 +135,20 @@ body {
         max-width: none;
     }
 }
+@supports (-webkit-touch-callout: none) {
+    .banner {
+        height: -webkit-fill-available;
+    }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .banner:hover .slider {
+        animation-play-state: paused;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .slider {
+        animation: none;
+    }
+}
