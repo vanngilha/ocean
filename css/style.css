@@ -14,8 +14,15 @@
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
+    animation: movimento 20s linear infinite;
 }
-
+@keyframes movimento {
+    from{
+        transform: perspective(1000px) rotateY(0deg);
+    }to{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
 .banner .slider .item{
     position: absolute;
     inset: 0 0 0 0;
