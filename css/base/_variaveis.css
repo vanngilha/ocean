@@ -1,0 +1,7 @@
+:root {
+    --cor-primaria: blue;
+    --cor-secundaria: black;
+    --fonte-titulo: 'Rubrik', Impact, sans-serif;
+    --fonte-texto: 'Poppins', Arial, sans-serif;
+    --gradiente-fundo: linear-gradient(180deg, white 0%, white 100%);
+}

@@ -1,10 +1,14 @@
 function openModal(title, description, imgSrc) {
+    let modal = document.getElementById('modal');
     document.getElementById('modal-title').innerText = title;
     document.getElementById('modal-description').innerText = description;
     document.getElementById('modal-image').src = imgSrc;
-    document.getElementById('modal').style.display = 'flex';
+    modal.style.display = 'flex';
 }
 
 function closeModal() {
-    document.getElementById('modal').style.display = 'none';
+    let modal = document.getElementById('modal');
+    modal.style.display = 'none';
 }
+
+
