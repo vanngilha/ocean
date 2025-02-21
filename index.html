@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="banner">
-        <div class="slider" style=" --quantity: 10; --rotation-speed: 10s ">
-            <div class="item" style="--position: 1"><img src="images/ocean.png" alt="Ocean">teste</div>
+        <div class="slider" style=" --quantity: 10; --rotation-speed: 25s ">
+            <div class="item" style="--position: 1"><img src="images/ocean.png" alt="Ocean" onclick="openModal('Ocean 1', 'Descrição da imagem 1', 'images/ocean.png')"> teste</div>
             <div class="item" style="--position: 2"><img src="images/ocean.png" alt="Ocean">teste</div>
             <div class="item" style="--position: 3"><img src="images/ocean.png" alt="Ocean">teste</div>
             <div class="item" style="--position: 4"><img src="images/ocean.png" alt="Ocean">teste</div>
@@ -24,7 +24,7 @@
             <div class="item" style="--position: 10"><img src="images/ocean.png" alt="Ocean">teste</div>
         </div>
         <div class="container">
-            <h1> OCEANO</h1>
+            <h1>MAR</h1>
             <div class="author">
                 <h2> CODA VANNG</h2>
                 <p><b>Full Stack Developer</b></p>
@@ -33,7 +33,15 @@
             <div class="modelo"></div>
         </div>
     </div>
-    
-    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-description"></p>
+            <button class="modal-button">Me Leva</button>
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
